@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.75,
-          "height": 2.75,
-          "width": 2.75
+          "drill": 0.0,
+          "height": 3.1,
+          "width": 2.41
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,10 +45,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.381
+          "min_clearance": 0.30479999999999996
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -116,13 +122,20 @@
       "track_widths": [
         0.0,
         0.254,
+        0.4572,
         0.508,
         1.016,
         1.6764,
         2.032,
+        3.048,
         4.064
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -361,7 +374,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "via_drill": 0.254,
         "wire_width": 6.0
       }
     ],
