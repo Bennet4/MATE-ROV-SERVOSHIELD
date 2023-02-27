@@ -3034,7 +3034,7 @@
   (gr_text "S0" (at 0 0) (layer "F.SilkS") (tstamp 12d299ee-0ba8-4c38-b098-39063017f5ff)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text "HEPHAESTUS ROBOTICS" (at 125.73 75.692) (layer "F.SilkS") (tstamp 1d188591-ef4f-478a-b515-3f496b12c216)
+  (gr_text "HEPHAESTUS ROBOTICS" (at 124.841 78.359) (layer "F.SilkS") (tstamp 1d188591-ef4f-478a-b515-3f496b12c216)
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (gr_text "TALOS 3\n" (at 150.495 118.11) (layer "F.SilkS") (tstamp 2caac7e4-78bb-42b5-8fc1-68e95257e085)
